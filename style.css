@@ -24,7 +24,29 @@ header {
   height: 35vh;
   border-bottom: 7px solid #eee;
 }
-
+@media (max-width: 520px) {
+  html {
+    font-size: 40%;
+  }
+  main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .right {
+    text-align: center;
+    font-size: 2.3rem !important;
+  }
+  .message {
+    margin-bottom: 0rem !important;
+  }
+  .label-score {
+    margin: 3rem 0 !important; 
+  }
+}
 main {
   height: 65vh;
   color: #eee;
